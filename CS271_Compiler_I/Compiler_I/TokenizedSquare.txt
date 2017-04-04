@@ -1,0 +1,1010 @@
+<tokens>
+
+<keyword> class </keyword>
+
+<symbol> { </symbol>
+
+<keyword> field </keyword>
+
+<identifier> int </identifier>
+
+<identifier> x </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> ; </symbol>
+
+<keyword> field </keyword>
+
+<identifier> int </identifier>
+
+<identifier> size </identifier>
+
+<symbol> ; </symbol>
+
+<keyword> constructor </keyword>
+
+<identifier> new </identifier>
+
+<symbol> ( </symbol>
+
+<identifier> int </identifier>
+
+<symbol> , </symbol>
+
+<identifier> int </identifier>
+
+<symbol> , </symbol>
+
+<identifier> int </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> let </keyword>
+
+<identifier> x </identifier>
+
+<symbol> = </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> let </keyword>
+
+<identifier> y </identifier>
+
+<symbol> = </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> let </keyword>
+
+<identifier> size </identifier>
+
+<symbol> = </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<identifier> draw </identifier>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> return </keyword>
+
+<keyword> this </keyword>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> method </keyword>
+
+<keyword> void </keyword>
+
+<identifier> dispose </identifier>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> this </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> return </keyword>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> method </keyword>
+
+<keyword> void </keyword>
+
+<identifier> draw </identifier>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> true </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> , </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> return </keyword>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> method </keyword>
+
+<keyword> void </keyword>
+
+<identifier> erase </identifier>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> false </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> , </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> return </keyword>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> method </keyword>
+
+<keyword> void </keyword>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> if </keyword>
+
+<symbol> ( </symbol>
+
+<symbol> ( </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> &lt </symbol>
+
+<integerConstant> 254 </integerConstant>
+
+<symbol> ) </symbol>
+
+<symbol> &amp </symbol>
+
+<symbol> ( </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> &lt </symbol>
+
+<integerConstant> 510 </integerConstant>
+
+<symbol> ) </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> do </keyword>
+
+<identifier> erase </identifier>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> let </keyword>
+
+<identifier> size </identifier>
+
+<symbol> = </symbol>
+
+<identifier> size </identifier>
+
+<symbol> + </symbol>
+
+<integerConstant> 2 </integerConstant>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<identifier> draw </identifier>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> return </keyword>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> method </keyword>
+
+<keyword> void </keyword>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> if </keyword>
+
+<symbol> ( </symbol>
+
+<identifier> size </identifier>
+
+<symbol> &quot </symbol>
+
+<integerConstant> 2 </integerConstant>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> do </keyword>
+
+<identifier> erase </identifier>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> let </keyword>
+
+<identifier> size </identifier>
+
+<symbol> = </symbol>
+
+<identifier> size </identifier>
+
+<symbol> - </symbol>
+
+<integerConstant> 2 </integerConstant>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<identifier> draw </identifier>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> return </keyword>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> method </keyword>
+
+<keyword> void </keyword>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> if </keyword>
+
+<symbol> ( </symbol>
+
+<identifier> y </identifier>
+
+<symbol> &quot </symbol>
+
+<integerConstant> 1 </integerConstant>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> false </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> , </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> - </symbol>
+
+<integerConstant> 1 </integerConstant>
+
+<symbol> , </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> let </keyword>
+
+<identifier> y </identifier>
+
+<symbol> = </symbol>
+
+<identifier> y </identifier>
+
+<symbol> - </symbol>
+
+<integerConstant> 2 </integerConstant>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> true </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> , </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<integerConstant> 1 </integerConstant>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> return </keyword>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> method </keyword>
+
+<keyword> void </keyword>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> if </keyword>
+
+<symbol> ( </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> &lt </symbol>
+
+<integerConstant> 254 </integerConstant>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> false </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> , </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<integerConstant> 1 </integerConstant>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> let </keyword>
+
+<identifier> y </identifier>
+
+<symbol> = </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<integerConstant> 2 </integerConstant>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> true </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> , </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> - </symbol>
+
+<integerConstant> 1 </integerConstant>
+
+<symbol> , </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> return </keyword>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> method </keyword>
+
+<keyword> void </keyword>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> if </keyword>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> &quot </symbol>
+
+<integerConstant> 1 </integerConstant>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> false </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> - </symbol>
+
+<integerConstant> 1 </integerConstant>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> , </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> let </keyword>
+
+<identifier> x </identifier>
+
+<symbol> = </symbol>
+
+<identifier> x </identifier>
+
+<symbol> - </symbol>
+
+<integerConstant> 2 </integerConstant>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> true </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> , </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<integerConstant> 1 </integerConstant>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> return </keyword>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> method </keyword>
+
+<keyword> void </keyword>
+
+<symbol> ( </symbol>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> if </keyword>
+
+<symbol> ( </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> &lt </symbol>
+
+<integerConstant> 510 </integerConstant>
+
+<symbol> ) </symbol>
+
+<symbol> { </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> false </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> , </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<integerConstant> 1 </integerConstant>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> let </keyword>
+
+<identifier> x </identifier>
+
+<symbol> = </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<integerConstant> 2 </integerConstant>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<keyword> true </keyword>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<keyword> do </keyword>
+
+<symbol> . </symbol>
+
+<symbol> ( </symbol>
+
+<symbol> ( </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> - </symbol>
+
+<integerConstant> 1 </integerConstant>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> , </symbol>
+
+<identifier> x </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> , </symbol>
+
+<identifier> y </identifier>
+
+<symbol> + </symbol>
+
+<identifier> size </identifier>
+
+<symbol> ) </symbol>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<keyword> return </keyword>
+
+<symbol> ; </symbol>
+
+<symbol> } </symbol>
+
+<symbol> } </symbol>
+
+</tokens>
+

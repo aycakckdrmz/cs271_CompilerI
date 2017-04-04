@@ -2,7 +2,7 @@
 # Compiler I 
 ----------------------------------------------------------------
 ### CS271 Hardware - Compiler I 
-### Date: March 2016
+### Date: May 2016
 ### Language: Java
 ### IDE/Editor: Eclipse
 ### Notes: Nand2Tetris 
