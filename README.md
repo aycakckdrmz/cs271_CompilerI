@@ -1,5 +1,15 @@
 
-# CS271 - Hardware - Compiler I 
+# Compiler I 
+----------------------------------------------------------------
+### CS271 Hardware - Compiler I 
+### Date: March 2016
+### Language: Java
+### IDE/Editor: Eclipse
+### Notes: Nand2Tetris 
+#
+----------------------------------------------------------------
+// Code is kept as when it was first coded it, 
+as a point of referans in my history
 #
 ``` Compiler I - Syntax Analysis
 
